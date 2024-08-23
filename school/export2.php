@@ -50,7 +50,7 @@
             <button type="submit" class="btn btn-primary" name="export5" style="margin-top:2%;">Previous School</button>
                 </div>
                 <div class="col-md-12">
-            <button type="submit" class="btn btn-primary" name="export5" style="margin-top:2%;">Visitors(Visiting Card)</button>
+            <button type="submit" class="btn btn-primary" name="export6" style="margin-top:2%;">Visitors(Visiting Card)</button>
                 </div>
            </div>
 
@@ -75,6 +75,9 @@ if(isset($_POST["export4"])){
     ?><script> window.location.href="export_dor.php"</script><?php
 }
 if(isset($_POST["export5"])){
+    ?><script> window.location.href="export_prev.php"</script><?php
+}
+if(isset($_POST["export6"])){
     ?><script> window.location.href="choose_visitor.php"</script><?php
 }
 ?>
